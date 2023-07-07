@@ -1,0 +1,950 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+a, img{
+    display: block;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.btn{
+    border: 0.1rem solid black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    transition: .5s all;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+.btn a{
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 0 2.5rem;
+    transition: .5s all;
+}
+
+.btn a:hover{
+    color: black;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+}
+
+/* NAV */
+
+#navigation{
+    display: none;
+}
+
+header .fren{
+    width: 100%;
+    padding: 1% 5% 0 0;
+}
+
+header .fren ul{
+    font-size: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .fren ul li{
+    font-size: 0.9rem;
+    padding: 0 0.2%;
+}
+
+header .fren ul li a{
+    color: black;
+    transition: .5s all;
+}
+
+header .fren ul li a:hover{
+    text-decoration: line-through;
+}
+
+/* NAVBAR */
+
+header .navbar{
+    padding: 1% 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .navbar .logo{
+    line-height: 250%;
+    width: 25%;
+}
+
+header .navbar .logo p:nth-of-type(1){
+    font-size: 3.9rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+header .navbar .logo p:nth-of-type(2){
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+header .navbar nav{
+    width: 30%;
+}
+
+header .navbar nav ul{
+    display: flex;
+    font-size: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header .navbar nav ul li{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 1%;
+}
+
+header .navbar nav ul li .underline{
+    border-bottom: 0.2rem solid black;
+}
+
+header .navbar nav ul li a{
+    color: black;
+    transition: .2s all;
+}
+
+header .navbar nav ul li a:hover{
+    border-bottom: 0.2rem solid black;
+}
+
+/* CAROU */
+
+header .carou{
+    width: 100%;
+    padding: 0 5%;
+    position: relative;
+}
+
+header .carou img:nth-of-type(1){
+    width: 88%;
+}
+
+header .carou img:nth-of-type(2){
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    z-index: -1;
+}
+
+header .carou h1{
+    width: 18%;
+    position: absolute;
+    top: 15%;
+    right: 5.5%;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 100%;
+    border-bottom: 0.7rem solid black;
+}
+
+header .carou p{
+    position: absolute;
+    right: 7.5%;
+    bottom: 8%;
+    font-size: 2rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* ARTICLES */
+
+section .project{
+    padding: 4% 4% 4% 9%;
+}
+
+section .project h2{
+    text-transform: uppercase;
+}
+
+section .containerarticles{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .containerarticles .txt{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+section .containerarticles .txt p{
+    font-size: 0.8rem;
+    padding: 0 2%;
+}
+
+section .containerarticles .txt .btn{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+
+section .containerarticles .yourproject{
+    width: 24%;
+}
+
+section .containerarticles .yourproject p{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 8% 8% 35% 8%;
+    border: 0.5rem solid black;
+    line-height: 120%;
+}
+
+/* ARCHITECT */
+
+section article .architect{
+    padding: 0 7%;
+    width: 100%;
+    display: flex;
+}
+
+section article .architect .arcimgtxt{
+    width: 50%;
+}
+
+section article .architect .arcimgtxt .arcimg{
+    width: 100%;
+}
+
+section article .architect .arcimgtxt .arcimg img{
+    width: 100%;
+}
+
+section article .architect .arcimgtxt .arctxt{
+    width: 100%;
+    background-color: black;
+}
+
+section article .architect  .arcimgtxt .arctxt p{
+    color: white;
+    font-size: 1rem;
+    padding: 7% 10% 7% 4%;
+}
+
+section article .architect .arcimgtxt .arctxt .btnbord{
+    border: 0.2rem solid white;
+    background-color: black;
+    display: inline-block;
+    margin: 0 0 5% 3%;
+    transition: .5s all;
+}
+
+section article .architect .arcimgtxt .arctxt .btnbord:hover{
+    background-color: white;
+    border: 0.2rem solid black;
+}
+
+section article .architect .arcimgtxt .arctxt .btnbord a{
+    color: white;
+    transition: .5s all;
+}
+
+section article .architect .arcimgtxt .arctxt .btnbord a:hover{
+    color: black;
+}
+
+/* INFOS */
+
+section article .architect .infos{
+    width: 50%;
+    display: flex;
+    margin-top: 25%;
+}
+
+section article .architect .infos .infotxt{
+    border-top: 0.5rem solid black;
+    width: 50%;
+    margin: 0 2%;
+}
+
+section article .architect .infos .infotxt h4{
+    padding: 10% 7% 7% 7%;
+    font-size: 0.8rem;
+}
+
+section article .architect .infos .infotxt h5{
+    padding: 0 7% 5% 7%;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+section article .architect .infos .infotxt p{
+    padding: 5% 7%;
+    font-size: 0.8rem;
+}
+
+section article .architect .infos .infotxt .infoimg{
+    display: flex;
+    width: 100%;
+    padding: 5% 0 5% 0;
+}
+
+section article .containerbis{
+    width: 100%;
+    padding: 2% 7%;
+    display: flex;
+}
+
+section article .containerbis .imgtxtempty{
+    width: 50%;
+}
+
+section article .containerbis .infosempty{
+    width: 50%;
+    display: flex;
+}
+
+section article .containerbis .infosempty .infotxtempty{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+
+section article .containerbis .infosempty .infotxtempty .btn{
+    margin-left: 11%
+}
+
+/* ARTICLE 1ER PRIX */
+
+section .firstprice{
+    padding-top: 20%;
+}
+
+section .firstprice .containerfirstprice{
+    padding: 0 7%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+section .firstprice .containerfirstprice .txtfirstprice{
+    width: 50%;
+}
+
+section .firstprice .containerfirstprice .txtfirstprice .line{
+    width: 50%;
+    height: 0.5rem;
+    background-color: black;
+}
+
+section .firstprice .containerfirstprice .txtfirstprice h4{
+    padding: 7% 7% 4% 7%;
+    font-size: 0.8rem;
+}
+
+section .firstprice .containerfirstprice .txtfirstprice h5{
+    padding: 0 7% 4% 7%;
+    width: 50%;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+section .firstprice .containerfirstprice .txtfirstprice p{
+    padding: 0 7% 4% 7%;
+    font-size: 1rem;
+}
+
+section .firstprice .containerfirstprice .txtfirstprice p:nth-of-type(2){
+    padding-top: 2%;
+}
+
+section .firstprice .containerfirstprice .btn{
+    position: absolute;
+    bottom: 0;
+    margin-left: 3%;
+}
+
+/* ARTICLE 1ER PRIX IMG */
+
+section .firstprice .containerfirstprice .img{
+    width: 50%;
+    position: relative;
+}
+
+
+section .firstprice .containerfirstprice .img img{
+    width: 100%;
+}
+
+section .firstprice .containerfirstprice .img .square1erprix{
+    width: 15rem;
+    height: 15rem;
+    border: 0.5rem solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 450%;
+    position: absolute;
+    right: 5%;
+    top: -25%;
+}
+
+section .firstprice .containerfirstprice .img .square1erprix h1{
+    font-size: 4rem;
+    padding-left: 7%;
+    font-weight: 900;
+}
+
+section .firstprice .containerfirstprice .img .square1erprix h1:nth-of-type(2){
+    text-transform: uppercase;
+    color: white;
+}
+
+section .firstprice .containerfirstprice .img p{
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: absolute;
+}
+
+section .firstprice .containerfirstprice .img p:nth-of-type(1){
+    right: -18.3%;
+    bottom: 15%;
+    rotate: 90deg;
+}
+
+section .firstprice .containerfirstprice .img p:nth-of-type(2){
+    color: white;
+    right: -18.3%;
+    bottom: 15%;
+    rotate: 90deg;
+    clip-path: inset(50% 0 0 0);
+}
+
+/* FOOTER */
+
+footer{
+    padding: 20% 0 8% 9%;
+}
+
+footer .logo{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+footer .infofooter{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+footer .infofooter .mailphone a,
+footer .infofooter .mailphone p,
+footer .infofooter .address p,
+footer .infofooter .social a{
+    font-size: 1rem;
+    color: black;
+    padding-bottom: 5%;
+}
+
+footer .infofooter a{
+    transition: .5s all;
+}
+
+footer .infofooter a:hover{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width : 1920px){
+    html{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width : 1200px){
+    html{
+        font-size: 12.6px;
+    }
+
+    .btn a,
+    header .navbar nav ul li,
+    section .containerarticles .txt p,
+    section .containerarticles .txt .btn a,
+    section .firstprice .containerfirstprice .txtfirstprice h4,
+    section article .architect .infos .infotxt h4{
+        font-size: 1.4rem;
+    }
+
+    header .fren ul li{
+        font-size: 1.3rem;
+    }
+
+    header .navbar nav{
+        width: 40%;
+    }
+
+    header .carou p{
+        font-size: 2.5rem;
+    }
+
+    section .project h2{
+        font-size: 2rem;
+    }
+
+    section article .architect  .arcimgtxt .arctxt p{
+        font-size: 1.5rem;
+    }
+
+    section article .architect .infos .infotxt h5,
+    section .firstprice .containerfirstprice .txtfirstprice h5{
+        font-size: 1.6rem;
+    }
+
+    section article .architect .infos .infotxt p{
+        font-size: 1rem;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice p{
+        font-size: 1.4rem;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice p:nth-of-type(2){
+        padding: 2% 0 15% 7%;
+    }
+
+    section .firstprice .containerfirstprice .img .square1erprix{
+        top : -18%
+    }
+
+    section .firstprice .containerfirstprice .img p:nth-of-type(1){
+        bottom: 40%;
+    }
+
+    section .firstprice .containerfirstprice .img p:nth-of-type(2){
+        bottom: 40%;
+    }
+
+    footer .logo{
+        font-size: 3rem;
+    }
+
+    footer .infofooter .mailphone a,
+    footer .infofooter .mailphone p,
+    footer .infofooter .address p,
+    footer .infofooter .social a{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width : 1024px){
+    html{
+        font-size: 10.7px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    header{
+        padding-top: 10%
+    }
+    /* MENU BURGER */
+    header .fren {
+        display: none;
+    }
+    header .navbar {
+        display: none;
+    }
+    header #toggle {
+        position: fixed;
+        display: block;
+        width: 30px;
+        height: 2px;
+        top: 50px;
+        right: 50px;
+        cursor: pointer;
+        background-color: black;
+        transition: all 0.3s ease-in-out;
+        z-index: 8;
+    }
+    header #toggle:before, header #toggle:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: black;
+        transition: all 0.3s ease-in-out;
+    }
+    header #toggle:before {
+        top: -10px;
+    }
+    header #toggle:after {
+        top: 10px;
+    }
+    header #toggle.active {
+        background-color: transparent;
+    }
+    header #toggle.active:before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    header #toggle.active:after {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    header #navigation {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        transition: 0.5s;
+        background-color: rgba(255, 255, 255, 0.9);
+        z-index: 6;
+    }
+    header #navigation.active {
+        right: 0;
+    }
+    header #navigation.active .logo {
+        display: none;
+    }
+    header #navigation.active ul {
+        display: flex;
+        flex-direction: column;
+    }
+    header #navigation.active ul li {
+        display: block;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    header #navigation.active ul li .sous {
+        display: none;
+    }
+    header #navigation.active ul li a {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 5%;
+        color: black;
+    }
+
+    header .carou h1{
+        width: 24%;
+        right: 2%;
+        top: 12%;
+    }
+    
+    header .carou p{
+        right: 6.5%;
+    }
+
+    section .containerarticles{
+        flex-wrap: wrap;
+    }
+
+    section .containerarticles .txt{
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    section .containerarticles .txt .btn{
+        bottom: -290%;
+        left: 2%
+    }
+
+    section .containerarticles .yourproject{
+        margin: 0 auto;
+    }
+
+    section article .architect{
+        flex-wrap: wrap;
+    }
+
+    section article .architect .arcimgtxt{
+        width: 100%;
+    }
+
+    section article .architect  .arcimgtxt .arctxt p{
+        font-size: 1.8rem;
+    }
+
+    section article .architect .arcimgtxt .arctxt .btnbord a{
+        font-size: 1.8rem;
+    }
+
+    section article .architect .infos{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    section article .architect .infos .infotxt h4{
+        font-size: 2rem;
+    }
+
+    section article .architect .infos .infotxt h5{
+        font-size: 2.2rem;
+    }
+
+    section article .architect .infos .infotxt p{
+        font-size: 1.5rem;
+    }
+
+    section article .containerbis .imgtxtempty{
+        display: none;
+    }
+
+    section article .containerbis .infosempty{
+        width: 100%;
+    }
+
+    section .firstprice .containerfirstprice{
+        flex-wrap: wrap-reverse;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice{
+        width: 100%;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice .line{
+        margin-top: 5%;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice h4{
+        font-size: 2rem;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice h5{
+        font-size: 2.2rem;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice p{
+        font-size: 1.8rem;
+    }
+
+    section .firstprice .containerfirstprice .btn{
+        margin-left: 6%;
+    }
+
+    section .firstprice .containerfirstprice .img{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    section .firstprice .containerfirstprice .img .square1erprix{
+        top: -23%;
+    }
+
+    section .firstprice .containerfirstprice .img p:nth-of-type(1){
+        right: -17.5%;
+        bottom: 18%;
+    }
+
+    section .firstprice .containerfirstprice .img p:nth-of-type(2){
+        right: -17.5%;
+        bottom: 18%;
+    }
+
+    footer{
+        padding: 18% 0 8% 13%;
+    }
+
+    footer .logo{
+        font-size: 4rem;
+    }
+
+    footer .infofooter{
+        width: 80%;
+    }
+
+    footer .infofooter .mailphone a,
+    footer .infofooter .mailphone p,
+    footer .infofooter .address p,
+    footer .infofooter .social a{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width : 480px){
+
+    header .carou{
+        margin: 10% 0;
+        padding: 0;
+    }
+
+    header .carou img:nth-of-type(1){
+        width: 100%;
+    }
+
+    header .carou img:nth-of-type(2){
+        display: none;
+    }
+
+    header .carou h1{
+        width: 38%;
+        top: 0;
+        left: 0;
+    }
+
+    header .carou p{
+        left: 39%;
+        bottom: 0;
+        font-size: 4rem;
+    }
+
+    section .containerarticles .txt .btn{
+        bottom: -300%;
+    }
+
+    section .containerarticles .yourproject{
+        width: 50%;
+        margin-top: 10%;
+    }
+
+    section article .architect .infos{
+        flex-wrap: wrap;
+    }
+    
+    section article .architect .infos .infotxt{
+        width: 100%;
+    }
+
+    section article .containerbis .infosempty .infotxtempty .btn2{
+        display: none;
+    }
+
+    section .firstprice .containerfirstprice{
+        padding: 0;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice{
+        width: 100%;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice .line{
+        width: 70%;
+    }
+
+    section .firstprice .containerfirstprice .txtfirstprice h5{
+        width: 70%;
+    }
+
+    section .firstprice .containerfirstprice .img{
+        width: 80%;
+    }
+
+    section .firstprice .containerfirstprice .img .square1erprix{
+        width: 12rem;
+        height: 12rem;
+        right: 8%;
+    }
+
+    section .firstprice .containerfirstprice .img .square1erprix h1{
+        font-size: 3.2rem;
+    }
+
+    section .firstprice .containerfirstprice .img p{
+        font-size: 5em;
+    }
+
+    footer{
+        padding: 18% 0 8% 5%;
+    }
+
+    footer .infofooter{
+        flex-wrap: wrap;
+        padding-top: 3%;
+    }
+
+    footer .infofooter .social{
+        margin: 0 auto;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width : 320px){
+    header .carou{
+        margin: 20% 0;
+    }
+
+    header .carou h1{
+        font-size: 3.5rem;
+        width: 40%;
+    }
+
+    header .carou p{
+        left: 32%;
+    }
+
+    section .containerarticles .txt .btn{
+        bottom: -310%;
+    }
+
+    section .containerarticles .yourproject{
+        width: 60%;
+        margin-top: 20%;
+    }
+
+    section .firstprice .containerfirstprice .img .square1erprix{
+        width: 10rem;
+        height: 10rem;
+        top: -28%;
+    }
+
+    section .firstprice .containerfirstprice .img .square1erprix h1{
+        font-size: 3rem;
+    }
+
+    section .firstprice .containerfirstprice .img p{
+        font-size: 3.9rem;
+    }
+
+    section .firstprice .containerfirstprice .img p:nth-of-type(1){
+        right: -20.2%;
+        bottom: 18%;
+    }
+
+    section .firstprice .containerfirstprice .img p:nth-of-type(2){
+        right: -20.2%;
+        bottom: 18%;
+    }
+
+    footer .infofooter{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .infofooter .mailphone,
+    footer .infofooter .address{
+        margin-bottom: 2%;
+    }
+    
+}
