@@ -162,7 +162,7 @@ header .carou h1{
     top: 15%;
     right: 5.5%;
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
     line-height: 100%;
     border-bottom: 0.7rem solid black;
@@ -385,7 +385,7 @@ section .firstprice .containerfirstprice .txtfirstprice p:nth-of-type(2){
 
 section .firstprice .containerfirstprice .btn{
     position: absolute;
-    bottom: 0;
+    bottom: -3%;
     margin-left: 3%;
 }
 
@@ -411,7 +411,7 @@ section .firstprice .containerfirstprice .img .square1erprix{
     line-height: 450%;
     position: absolute;
     right: 5%;
-    top: -25%;
+    top: -29%;
 }
 
 section .firstprice .containerfirstprice .img .square1erprix h1{
@@ -426,22 +426,22 @@ section .firstprice .containerfirstprice .img .square1erprix h1:nth-of-type(2){
 }
 
 section .firstprice .containerfirstprice .img p{
-    font-size: 6rem;
+    font-size: 5.5rem;
     text-transform: uppercase;
     font-weight: 900;
     position: absolute;
 }
 
 section .firstprice .containerfirstprice .img p:nth-of-type(1){
-    right: -18.3%;
-    bottom: 15%;
+    right: -21%;
+    bottom: 20%;
     rotate: 90deg;
 }
 
 section .firstprice .containerfirstprice .img p:nth-of-type(2){
     color: white;
-    right: -18.3%;
-    bottom: 15%;
+    right: -21%;
+    bottom: 20%;
     rotate: 90deg;
     clip-path: inset(50% 0 0 0);
 }
@@ -484,14 +484,19 @@ footer .infofooter a:hover{
 
 @media screen and (max-width : 1920px){
     html{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
+@media screen and (max-width : 1540px) {
+    html{
+        font-size: 19.8px;
+    }
+}
 
 @media screen and (max-width : 1200px){
     html{
-        font-size: 12.6px;
+        font-size: 16px;
     }
 
     .btn a,
@@ -545,11 +550,11 @@ footer .infofooter a:hover{
     }
 
     section .firstprice .containerfirstprice .img p:nth-of-type(1){
-        bottom: 40%;
+        bottom: 52%;
     }
 
     section .firstprice .containerfirstprice .img p:nth-of-type(2){
-        bottom: 40%;
+        bottom: 52%;
     }
 
     footer .logo{
@@ -566,11 +571,15 @@ footer .infofooter a:hover{
 
 @media screen and (max-width : 1024px){
     html{
-        font-size: 10.7px;
+        font-size: 13.6px;
     }
 }
 
 @media screen and (max-width : 768px){
+
+    html{
+        font-size: 11.6px;
+    }
     header{
         padding-top: 10%
     }
@@ -661,10 +670,11 @@ footer .infofooter a:hover{
         width: 24%;
         right: 2%;
         top: 12%;
+        font-size: 4.6rem;
     }
     
     header .carou p{
-        right: 6.5%;
+        right: 5.5%;
     }
 
     section .containerarticles{
@@ -682,6 +692,7 @@ footer .infofooter a:hover{
     }
 
     section .containerarticles .yourproject{
+        width: 30%;
         margin: 0 auto;
     }
 
@@ -760,7 +771,7 @@ footer .infofooter a:hover{
     }
 
     section .firstprice .containerfirstprice .img .square1erprix{
-        top: -23%;
+        top: -26%;
     }
 
     section .firstprice .containerfirstprice .img p:nth-of-type(1){
@@ -826,7 +837,7 @@ footer .infofooter a:hover{
 
     section .containerarticles .yourproject{
         width: 50%;
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
     section article .architect .infos{
@@ -843,6 +854,10 @@ footer .infofooter a:hover{
 
     section .firstprice .containerfirstprice{
         padding: 0;
+    }
+
+    section .firstprice .containerfirstprice .line{
+        margin-left: 5%;
     }
 
     section .firstprice .containerfirstprice .txtfirstprice{
@@ -865,6 +880,7 @@ footer .infofooter a:hover{
         width: 12rem;
         height: 12rem;
         right: 8%;
+        top: -25%;
     }
 
     section .firstprice .containerfirstprice .img .square1erprix h1{
@@ -872,7 +888,7 @@ footer .infofooter a:hover{
     }
 
     section .firstprice .containerfirstprice .img p{
-        font-size: 5em;
+        font-size: 4.7em;
     }
 
     footer{
@@ -909,22 +925,22 @@ footer .infofooter a:hover{
     }
 
     section .containerarticles .yourproject{
-        width: 60%;
-        margin-top: 20%;
+        width: 70%;
+        margin-top: 40%;
     }
 
     section .firstprice .containerfirstprice .img .square1erprix{
         width: 10rem;
         height: 10rem;
-        top: -28%;
+        top: -30%;
     }
 
     section .firstprice .containerfirstprice .img .square1erprix h1{
-        font-size: 3rem;
+        font-size: 2.9rem;
     }
 
     section .firstprice .containerfirstprice .img p{
-        font-size: 3.9rem;
+        font-size: 3.6rem;
     }
 
     section .firstprice .containerfirstprice .img p:nth-of-type(1){
